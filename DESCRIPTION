@@ -1,0 +1,23 @@
+Package: montyhall
+Title: The Montyhall Game 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Melanie", "Phoenix", , "mophoeni@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package was created to simulate the Montyhall game. The game 
+consists of a contestant choosing between 3 doors. Behind the three doors, there 
+are two doors and a car. The objective of the game is for the contestant to 
+select the door with the car behind it. The contestant is asked to choose a 
+door. After the door is chosen, the game eliminates one of the doors that have a 
+goat behind it. This reduces the choices to the door the contestant chose and 
+another door. The contestant is given the opportunity to stay with the door that 
+they initially chose or switch to the other door. The game then determines if 
+the contestant’s door is the door with the car behind it and declares them to 
+either “Win” or “Lose”. The game is simulated 100 times to see if there is a 
+pattern with choice. 
+Depends: dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
